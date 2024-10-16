@@ -114,4 +114,33 @@ footer{
 
 }
 
+@media (max-width: 960px){
+    body{
+        padding-inline: 32px;
+        padding-bottom: 16px;
+    }
+    main{
+        justify-content: space-between;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+        gap: 16px;
+    }
+    .description{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .pikachu-image{
+        height: 50vh;
+    }
+    footer{
+        display: none;
+    }
+
+}
